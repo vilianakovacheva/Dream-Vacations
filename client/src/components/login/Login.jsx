@@ -1,4 +1,5 @@
 import styles from './Login.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
@@ -16,7 +17,7 @@ export default function Login() {
                 <input type="submit" defaultValue="Login" />
             </form>
             <p className={styles.account}>
-                Don't have an account? <a href="#">Sign up</a>
+                Don't have an account? <Link to="/register">Sign up</Link>
             </p>
         </div>
     );
