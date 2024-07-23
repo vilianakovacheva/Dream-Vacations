@@ -32,6 +32,9 @@ export default function Header() {
                 </li>
                 {/**User */}
                 <li>
+                    <a href="#">Create Vacation</a>
+                </li>
+                <li>
                     <a href="#">Profile</a>
                 </li>
                 <li>

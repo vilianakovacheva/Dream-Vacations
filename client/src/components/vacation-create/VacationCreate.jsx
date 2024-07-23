@@ -3,7 +3,7 @@ import styles from './VacationCreate.module.css'
 export default function VacationCreate() {
     return (
         <div className={styles.container}>
-            <h1>Add Vacation</h1>
+            <h1 className={styles["add-vacation"]}>Add Vacation</h1>
             <form>
                 <label htmlFor="price">Price:</label>
                 <input type="number" id="price" name="price" placeholder={1630} />

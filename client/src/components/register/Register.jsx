@@ -3,7 +3,7 @@ import styles from './Register.module.css'
 export default function Register() {
     return (
         <div className={styles.container}>
-            <h1>Register</h1>
+            <h1 className={styles.register}>Register</h1>
             <form>
                 <label htmlFor="email">Email:</label>
                 <input type="text" id="email" name="email" placeholder="john@abv.bg" />

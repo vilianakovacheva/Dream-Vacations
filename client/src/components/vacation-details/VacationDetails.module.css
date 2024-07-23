@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+.vacation-details {
+    background: linear-gradient(rgba(0, 0, 0, 0.701), rgba(0, 0, 0, 0.701), rgba(0, 0, 0, 0.701)), url('https://wallpapercave.com/wp/wp2601510.jpg') no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.destination {
+    position: absolute;
+    color: rgb(177, 240, 245);
+    letter-spacing: 10px;
+    font-size: 120px;
+    top: 160px;
+    left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.destination-img {
+    position: absolute;
+    width: 33%;
+    height: auto;
+    right: 60px;
+    top: 170px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.destination-img:hover {
+    animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.first-description {
+    color: white;
+    position: absolute;
+    left: 490px;
+    bottom: 114px;
+    font-size: 26px;
+}
+
+.first-description-p{
+    margin-bottom: 25px;
+}
+
+.second-description {
+    word-break: keep-all;
+    hyphens: none;
+    overflow-wrap: break-word;
+    white-space: normal;
+    color: white;
+    position: absolute;
+    max-width: 600px;
+    margin-left: 630px;
+    bottom: 35px;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+
+
+.likes {
+    position: absolute;
+    left: 150px;
+    bottom: 390px;
+    font-size: 35px;
+    color: #87e5ef;
+}
+
+.author-buttons {
+    display: flex;
+    position: absolute;
+    gap: 70px;
+    bottom: 50px;
+    left: 500px;
+}
+
+.author-buttons button {
+    background-color: #00b1f7b9;
+    color: #ffffff;
+    border: 1px solid #0d1fe1;
+    box-shadow: 0 0 10px rgb(0, 13, 255);
+    border-radius: 50% 20% / 10% 40%;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.author-buttons button:hover {
+    background-color: #034aefd3;
+    animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.nonauthor-button {
+    position: absolute;
+    bottom: 50px;
+    left: 570px;
+}
+
+.nonauthor-button button {
+    background-color: #00b1f7b9;
+    color: #ffffff;
+    border: 1px solid #0d1fe1;
+    box-shadow: 0 0 10px rgb(0, 13, 255);
+    border-radius: 50% 20% / 10% 40%;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.nonauthor-button button:hover {
+    background-color: #034aefd3;
+    animation: pulse 0.5s infinite;
+}
+
+.liked-vacation {
+    position: absolute;
+    bottom: 50px;
+    left: 410px;
+    background-color: #00a2ffa7;
+    border-radius: 10px;
+    font-size: 28px;
+}

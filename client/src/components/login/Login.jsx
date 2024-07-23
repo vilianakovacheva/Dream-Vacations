@@ -3,7 +3,7 @@ import styles from './Login.module.css'
 export default function Login() {
     return (
         <div className={styles.container}>
-            <h1>Login</h1>
+            <h1 className={styles.login}>Login</h1>
             <form>
                 <label htmlFor="email">Email:</label>
                 <input type="text" id="email" name="email" placeholder="john@abv.bg" />

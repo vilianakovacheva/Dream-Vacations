@@ -37,7 +37,7 @@ body {
     box-shadow: 0 0 10px rgba(7, 19, 241, 0.932);
 }
 
-h1 {
+.add-vacation {
     text-align: center;
     margin-bottom: 50px;
     color:rgb(10, 1, 126);
