@@ -9,8 +9,7 @@ export default function Home() {
                     Discover your perfect getaway with Dream Vacations, where we connect
                     travelers with amazing stays and unforgettable experiences.
                     <br /> Whether you're looking for a luxurious hotel, a cozy guest house,
-                    or a budget-friendly motel,
-                    <br /> we've got you covered.
+                    or a budget-friendly <br /> motel, we've got you covered.
                 </p>
                 <h2 className={styles.question}>Have a Property to List?</h2>
                 <p className={styles["second-paragraph"]}>
