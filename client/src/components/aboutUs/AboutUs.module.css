@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    min-height: 100vh;
+    background: url('https://wallpapercave.com/wp/wp2601510.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-bottom: -90px;
+    margin-top: 50px;
+}
+
+.left {
+    width: 55%;
+    height: 1100px;
+    padding-left: 140px;
+    background-color: rgba(16, 194, 239, 0.55);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.right {
+    width: 45%;
+    padding-right: 140px;
+    background-color: rgba(16, 194, 239, 0.55);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.left img {
+    border-radius: 10px 100px / 120px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fffcfc;
+    transform: translateX(-10%);
+    margin-bottom: 50px;
+}
+
+.right {
+    text-align: center;
+}
+
+.right h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transform: translateX(15%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right .list {
+    margin-top: 40px;
+    text-align: center;
+    transform: translateX(15%);
+}
+
+.right .list li {
+    padding: 15px;
+    background-color: #66c2a5a4;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.right .list li h2 {
+    color: #3104fbbd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right .list li p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    transform: translateX(1%);
+}
+
+.right p {
+    font-size: 30px;
+    transform: translateX(15%);
+}
+
+.right img {
+    border-radius: 10px 100px / 120px;
+}
