@@ -1,4 +1,5 @@
 import styles from './Register.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Register() {
     return (
@@ -20,7 +21,7 @@ export default function Register() {
                 <input type="submit" defaultValue="Register" />
             </form>
             <p className={styles.account}>
-                Already have an account? <a href="#">Log in</a>
+                Already have an account? <Link to="/login">Log in</Link>
             </p>
         </div>
 
