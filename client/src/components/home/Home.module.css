@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    min-height: 100vh;
+    background: url('https://wallpapercave.com/wp/wp2601510.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section {
+    padding: 80px 18%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text {
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    right: 20px;
+    margin-top: 80px;
+    transform: translateX(-20%);
+}
+
+.home-text h1 {
+    font-size: 80px;
+    line-height: 1.2;
+    color: rgba(12, 0, 244, 0.85);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    transform: translateX(4%);
+}
+
+.home-text h2 {
+    position: absolute;
+    font-size: 34px;
+    line-height: 1.2;
+    color: rgb(3, 23, 136);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateX(-2%);
+    top: 290px;
+}
+
+.first-paragraph{
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateX(2%);
+    top: 120px;
+}
+
+.second-paragraph {
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateX(-9%);
+    top: 340px;
+}
+
+.home-btn {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #ffffffbf;
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .40s;
+    top: 520px;
+}
+
+.home-btn:hover {
+    background: var(--bg-color);
+    transform: scale(1.1);
+}
