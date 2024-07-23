@@ -1,44 +1,45 @@
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
         <header>
-            <a href="#" className={styles.logo}>
+            <Link to="/" className={styles.logo}>
                 🌴
-            </a>
+            </Link>
             <div className={styles['bx bx-menu']} id="menu-icon" />
             <ul className={styles.navbar}>
                 <li>
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#">Vacations</a>
+                    <Link to="/vacations">Vacations</Link>
                 </li>
                 <li>
-                    <a href="#">Search</a>
+                    <Link to="/search">Search</Link>
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <Link to="/about-us">About us</Link>
                 </li>
                 <li>
-                    <a href="#">Testimonials</a>
+                    <Link to="/testimonials">Testimonials</Link>
                 </li>
                 {/**Guest */}
                 <li>
-                    <a href="#">Login</a>
+                    <Link to="/login">Login</Link>
                 </li>
                 <li>
-                    <a href="#">Register</a>
+                    <Link to="/register">Register</Link>
                 </li>
                 {/**User */}
                 <li>
-                    <a href="#">Create Vacation</a>
+                    <Link to="/vacations/create">Create Vacation</Link>
                 </li>
                 <li>
-                    <a href="#">Profile</a>
+                    <Link to="/profile">Profile</Link>
                 </li>
                 <li>
-                    <a href="#">Logout</a>
+                    <Link to="/logout">Logout</Link>
                 </li>
             </ul>
         </header>
