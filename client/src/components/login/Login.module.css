@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    min-height: 100vh;
+    background: url('https://wallpapercave.com/wp/wp2601510.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 370px;
+    margin: 150px auto;
+    padding: 30px;
+    background: transparent;
+    background-color: #00a1f76b;
+    border: 1px solid #0d1fe1;
+    box-shadow: 0 0 10px rgba(7, 19, 241, 0.932);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(10, 1, 126);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4058f6be;
+}
+
+input[type="submit"] {
+    background-color: #0033ffc9;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #0acaf0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #001df7;
+}
+
+.account {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #191919;
+}
+
+a {
+    text-decoration: none;
+    color: #131da7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
