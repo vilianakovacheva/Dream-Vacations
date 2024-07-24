@@ -53,7 +53,7 @@ body {
 .btn-add-testimonial {
     position: absolute;
     display: inline-block;
-    background-color: #2e48d8a8;
+    background-color: #2e48d8c0;
     box-shadow: 0 0 10px rgb(9, 1, 250);
     color: #ffffff;
     padding: 10px 20px;
@@ -67,6 +67,7 @@ body {
 
 .btn-add-testimonial:hover {
     background-color: #0051f4;
+    color: white;
 }
 
 .testimonials-container {
