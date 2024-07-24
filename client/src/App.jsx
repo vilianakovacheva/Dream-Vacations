@@ -13,6 +13,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import TestimonialAdd from "./components/testimonial-add/TestimonialAdd";
 import Search from "./components/search/Search";
 import Profile from "./components/profile/Profile";
+import NotFound from "./components/notFound/NotFound";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/testimonials/add" element={<TestimonialAdd />} />
         <Route path="/search" element={<Search />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
 
     </>
