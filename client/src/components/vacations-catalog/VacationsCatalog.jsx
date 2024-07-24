@@ -102,6 +102,9 @@ export default function VacationsCatalog() {
                     </div>
                 </div>
             </div>
+            <h2 className={styles["noFound-vacations"]}>
+                There are no vacations to offer you yet!
+            </h2>
         </>
 
     );
