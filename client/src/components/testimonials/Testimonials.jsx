@@ -1,4 +1,5 @@
 import styles from './Testimonials.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Testimonials() {
     return (
@@ -7,9 +8,9 @@ export default function Testimonials() {
             <p className={styles.guest}>
                 Login or register(if you don't have an account) to write your testimonial!
             </p>
-            <a href="#" className={styles["btn-add-testimonial"]}>
+            <Link to="/testimonials/add" className={styles["btn-add-testimonial"]}>
                 Add Testimonial
-            </a>
+            </Link>
             <div className={styles["testimonials-container"]}>
                 <div className={styles.testimonial}>
                     <h1 className={styles.quote}>❝</h1>
