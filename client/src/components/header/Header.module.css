@@ -25,6 +25,10 @@ header {
     letter-spacing: 1px;
 }
 
+.logo-img{
+    width: 70px;
+}
+
 .navbar {
     display: flex;
 }
