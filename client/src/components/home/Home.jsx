@@ -1,4 +1,5 @@
 import styles from './Home.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -17,9 +18,9 @@ export default function Home() {
                     reach a wider <br /> audience. Benefit from our platform to attract <br />{" "}
                     more guests and boost your bookings.
                 </p>
-                <a href="#" className={styles["home-btn"]}>
+                <Link to="/vacations" className={styles["home-btn"]}>
                     Explore Vacations
-                </a>
+                </Link>
             </div>
         </section>
     );
