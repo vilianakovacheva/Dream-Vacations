@@ -112,3 +112,13 @@ body {
     background-color: rgba(0, 0, 255, 0.312);
     color: white;
 }
+
+.noFound-vacations{
+    position: absolute;
+    top: 800px; /*Change it when adding the conditional statement*/
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
