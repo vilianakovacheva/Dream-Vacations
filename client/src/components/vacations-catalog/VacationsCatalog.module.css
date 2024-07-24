@@ -110,4 +110,5 @@ body {
 
 .button:hover {
     background-color: rgba(0, 0, 255, 0.312);
+    color: white;
 }
