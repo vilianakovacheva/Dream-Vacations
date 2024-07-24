@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header>
             <Link to="/" className={styles.logo}>
-                🌴
+            <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" className={styles['logo-img']} alt="Travel Logo" />
             </Link>
             <div className={styles['bx bx-menu']} id="menu-icon" />
             <ul className={styles.navbar}>
