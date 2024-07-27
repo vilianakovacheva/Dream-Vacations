@@ -14,10 +14,13 @@ import TestimonialAdd from "./components/testimonial-add/TestimonialAdd";
 import Search from "./components/search/Search";
 import Profile from "./components/profile/Profile";
 import NotFound from "./components/notFound/NotFound";
+import { AuthContextProvider } from "./contexts/AuthContext";
+import Logout from "./components/logout/Logout";
 
 function App() {
 
   return (
+    <AuthContextProvider>
     <>
       <Header />
 
@@ -25,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/vacations" element={<VacationsCatalog />} />
         <Route path="/vacations/:vacationId/details" element={<VacationDetails />} />
@@ -37,6 +41,7 @@ function App() {
       </Routes>
 
     </>
+    </AuthContextProvider>
   )
 }
 
