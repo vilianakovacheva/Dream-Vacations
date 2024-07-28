@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from './VacationsListItem.module.css';
+import styles from './VacationsCatalogItem.module.css';
 
 export default function VacationListItem({
     _id,
