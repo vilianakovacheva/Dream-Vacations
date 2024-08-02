@@ -21,7 +21,7 @@ export default function AboutUs() {
                     with us today!
                 </p>
                 <img
-                    src="https://yesofcorsa.com/wp-content/uploads/2018/08/Indian-Ocean-High-Quality-Wallpaper.jpg"
+                    src="https://wallpapers.com/images/hd/most-beautiful-places-in-the-world-ixted75dnonldfh8.jpg"
                     className={styles.leftImg}
                     alt="lighthouse"
                     width={500}
