@@ -1,15 +1,33 @@
-import { useParams } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import styles from './VacationDetails.module.css'
 import { useAuthContext } from '../../contexts/AuthContext';
 import { useGetOneVacation } from '../../hooks/useVacations';
+import * as vacationsAPI from '../../api/vacations-api';
 
 export default function VacationDetails() {
+    const navigate = useNavigate();
     const { vacationId } = useParams();
     const { userId } = useAuthContext();
     const [vacation] = useGetOneVacation(vacationId);
     const { isAuthenticated } = useAuthContext();
 
+    const [show, setShow] = useState(false);
+
     const isOwner = userId === vacation._ownerId;
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    const gameDeleteHandler = async () => {
+        try {
+            await vacationsAPI.remove(vacationId);
+
+            navigate('/vacations');
+        } catch (err) {
+            console.log(err.message);
+        }
+    }
 
     return (
         <section className={styles['vacation-details']}>
@@ -39,8 +57,27 @@ export default function VacationDetails() {
             {/*<p className={styles.likes}>👍🏼 Likes: 3</p>*/}
             {isOwner && (
                 <div className={styles["author-buttons"]}>
-                    <button id="edit-button">Edit</button>
-                    <button id="delete-button">Delete</button>
+                    <button className={styles["edit-button"]} id="edit-button">Edit</button>
+                    <button className={styles["delete-button"]} onClick={handleShow} id="delete-button">Delete</button>
+
+                    {show && (
+                        <div className={styles['delete-modal']}>
+                            <div className={styles['modal-content']}>
+                            <button className={styles['close-btn']} onClick={handleClose}>
+                                    &times;
+                                </button>
+                                <h5 className={styles.confirm}>Are you sure you want to delete the vacation to {vacation.destination}?</h5>
+                                <p className={styles.caution}>This action cannot be undone!</p>
+                                <button className={styles['yes-btn']} onClick={gameDeleteHandler}>
+                                    Delete
+                                </button>
+                                <button className={styles['cancel-btn']} onClick={handleClose}>
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    )}
+
                 </div>
             )}
 
