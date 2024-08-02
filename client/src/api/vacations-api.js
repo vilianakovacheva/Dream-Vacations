@@ -13,3 +13,5 @@ export const getAll =  async () => {
 export const getOne = (vacationId) => requester.get(`${BASE_URL}/${vacationId}`);
 
 export const create = (vacationData) => requester.post(`${BASE_URL}`, vacationData);
+
+export const remove = (vacationId) => requester.del(`${BASE_URL}/${vacationId}`);
