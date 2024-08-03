@@ -37,7 +37,7 @@ export default function Login() {
             <form onSubmit={submitHandler}>
                 <label htmlFor="email">Email:</label>
                 <input 
-                type="text" 
+                type="email" 
                 id="email" 
                 name="email" 
                 value={values.email}
