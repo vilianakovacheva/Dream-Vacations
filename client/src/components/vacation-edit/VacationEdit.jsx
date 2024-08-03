@@ -168,7 +168,7 @@ export default function VacationEdit() {
                 <br />
                 <label htmlFor="email">Hotel's email:</label>
                 <input
-                    type="text"
+                    type="email"
                     id="email"
                     name="email"
                     onChange={changeHandler}
