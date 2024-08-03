@@ -16,7 +16,16 @@ export function useGetAllVacations() {
 }
 
 export function useGetOneVacation(vacationId) {
-    const [vacation, setVacation] = useState({});
+    const [vacation, setVacation] = useState({
+        imageUrl: '',
+        price: '',
+        destination: '',
+        accommodation: '',
+        stars: '',
+        period: '',
+        description: '',
+        entertainment: ''
+    });
 
     useEffect(() => {
         (async () => {
@@ -29,7 +38,7 @@ export function useGetOneVacation(vacationId) {
     return [vacation, setVacation];
 }
 
-export function useCreateVacation(vacationData) {
+export function useCreateVacation() {
     const vacationCreateHandler = (vacationData) => vacationsAPI.create(vacationData);
 
     return vacationCreateHandler;
