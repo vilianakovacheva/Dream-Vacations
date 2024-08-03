@@ -1,7 +1,8 @@
 import styles from './TestimonialListItem.module.css';
 
 export default function TestimonialListItem({
-    testimonial
+    testimonial,
+    author
 }) {
     return (
         <div className={styles.testimonial}>
@@ -9,7 +10,7 @@ export default function TestimonialListItem({
             <p>
                 {testimonial}
             </p>
-            <p>----</p>
+            <p>--{author}--</p>
         </div>
     )
 }

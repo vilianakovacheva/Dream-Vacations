@@ -3,15 +3,19 @@ import styles from './TestimonialAdd.module.css'
 import { useCreateTestimonial } from '../../hooks/useTestimonials';
 import { useState } from 'react';
 import { useForm } from '../../hooks/useForm';
+import { useAuthContext } from '../../contexts/AuthContext';
 
 const initialValues = {
-    testimonial: ''
+    testimonial: '',
+    author: ''
 }
 
 export default function TestimonialAdd() {
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const createTestimonial = useCreateTestimonial();
+    const {email} = useAuthContext();
+    initialValues.author = email;
 
     const createHandler = async (values) => {
         if (!values.testimonial) {

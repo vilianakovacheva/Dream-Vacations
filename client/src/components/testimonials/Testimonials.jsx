@@ -24,7 +24,7 @@ export default function Testimonials() {
             }
 
             {testimonials.length > 0
-                ? <div className={styles["testimonials-container"]}>{testimonials.map(testimonial => <TestimonialListItem key={testimonial._id} {...testimonial} email={testimonial._ownerId.email}/>)}</div>
+                ? <div className={styles["testimonials-container"]}>{testimonials.map(testimonial => <TestimonialListItem key={testimonial._id} {...testimonial}/>)}</div>
                 : <h2 className={styles["noFound-testimonials"]}>There are no testimonials yet!</h2>
             }
         </>
