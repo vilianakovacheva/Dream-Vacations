@@ -1350,6 +1350,8 @@
                 "period": "5",
                 "description": "Nestled in the picturesque town of Bansko, Bulgaria, Grand Hotel Therme Bansko offers an exquisite blend of luxury, relaxation, and adventure. This upscale hotel is renowned for its exceptional thermal spa facilities, providing guests with a rejuvenating experience through its various mineral-rich pools, saunas, and wellness treatments. Surrounded by the stunning landscapes of the Pirin Mountains, the hotel is a perfect getaway for nature enthusiasts and those seeking tranquility.\n\nThe elegantly designed rooms and suites at Grand Hotel Therme Bansko provide the ultimate comfort, featuring modern amenities and breathtaking views of the mountains or the hotel’s lush gardens. Guests can indulge in gourmet dining at the hotel's restaurants, which serve a delectable array of local and international cuisine.\n\nFor adventure seekers, the hotel offers easy access to the Bansko ski resort, known for its world-class skiing and snowboarding slopes. In the warmer months, guests can enjoy hiking, biking, and exploring the rich cultural heritage of the region.\n\nGrand Hotel Therme Bansko is not just a place to stay but a destination to unwind and immerse yourself in luxury and nature. With its impeccable service, outstanding facilities, and serene ambiance, it promises an unforgettable experience for every guest.",
                 "entertainment": "Skiing, snowboarding, hiking, mountain biking, visiting the thermal spas, exploring Pirin National Park, touring the old town, dining at local restaurants, visiting the Bansko Museum Complex, attending the Bansko Jazz Festival, enjoying après-ski activities, wine tasting at local wineries, horseback riding, exploring Rila Monastery, golfing at Pirin Golf and Country Club, taking a scenic gondola ride, bird watching, rock climbing, visiting local art galleries, fishing in nearby lakes and rivers.",
+                "contact": "0800 20 201",
+                "email": "Book.Therme@Grandhotel.Bg",
                 "_createdOn": 1722161145569,
                 "_id": "f1a2f7d3-0219-4a1d-b8a2-e3ef9d29cabf"
             },
@@ -1363,6 +1365,8 @@
                 "period": "7",
                 "description": "Quiet Paris, practical Paris, this is what the Altona hotel offers you, ideally located near the Gare du Nord and Gare de l'Est, a few minutes from Place de la République. The Sacré-Coeur basilica and Montmartre are also within walking distance of the hotel. In short, Paris is at your feet! In a beautiful building from the beginning of the century, the Altona hotel offers you a personalized welcome!",
                 "entertainment": "You can visit the Eiffel Tower, Louvre Museum, Arc de Triomphe, Palace of Versailles.",
+                "contact": "+33 (0)1 48 78 68 24",
+                "email": "reservation@hotelaltona.com",
                 "_createdOn": 1722161266689,
                 "_id": "8eae6be1-0068-43f6-98c5-60b47d9c8601"
             },
@@ -1376,6 +1380,8 @@
                 "period": "6",
                 "description": "The Hotel Madison Roma is located right next to Termini station in Rome, in the heart of the capital. The hotel extends over 6 floors with a total of 129 rooms. Our hotel is among the best places to stay in Rome at very competitive rates.\n\nTHE PERFECT LOCATION FOR THOSE WHO LOVE THE CITY CENTRE\n\nThe Hotel Madison Roma is located in Via Marsala, just in front of the main railway station, Termini, Rome's public transport hub, and 400 meters from the National Roman Museum.",
                 "entertainment": "Visit the Colosseum, explore the Roman Forum, see the Pantheon, tour the Vatican Museums, admire the Sistine Chapel, visit St. Peter's Basilica, throw a coin in the Trevi Fountain, climb the Spanish Steps, visit the Capitoline Museums, explore the Borghese Gallery, stroll through Piazza Navona, visit the Castel Sant'Angelo, tour the Catacombs of Rome, explore the Palatine Hill, visit the Piazza Venezia, see the Altar of the Fatherland, walk through the Trastevere neighborhood, visit the Baths of Caracalla, explore the Villa d'Este, taste gelato at local gelaterias, dine on authentic Italian cuisine, shop on Via del Corso, take a cooking class, visit the MAXXI Museum, explore the Appian Way, relax in the Villa Borghese gardens.",
+                "contact": "+39 06 83395266",
+                "email": "booking@bzarhotel.it",
                 "_createdOn": 1722161521611,
                 "_id": "530faa65-2b3e-494a-a80b-74041dd4f90f"
             },
@@ -1389,6 +1395,8 @@
                 "period": "7",
                 "description": "Take a holiday in one of Europe’s most charming cities! The JUFA Hotel Wien City**** is located in the Simmering district, offering modern facilities and excellent transportation connections. Many attractions, such as the famous St. Stephen’s Cathedral, can be reached in just a few minutes by public transport.\n\nWould you like to visit the Prater amusement park, the Musikverein concert hall, the Albertina art museum, the Haus des Meeres acquatic zoo, or rather attend a thrilling major event in the Ernst Happel Stadium during your city trip? Then the JUFA Hotel Wien City**** is your best choice!\n\nThe JUFA Hotel Wien City**** is also ideal as a seminar and conference hotel due to its great accessibility (only 300m from the U3 metro line), its own parking garage, and modern, spacious, and versatile rooms, as well as a glass-roofed atrium.\n\nEnjoy Viennese cuisine as well as vegan and vegetarian options in our à la carte restaurant or bistrot. Our rich and varied breakfast buffet provides you with the perfect start to your day.",
                 "entertainment": "Visit Schönbrunn Palace, tour Hofburg Palace, explore St. Stephen's Cathedral, see the Belvedere Palace, stroll through the Vienna State Opera, visit the Kunsthistorisches Museum, enjoy the Prater amusement park, take a ride on the Giant Ferris Wheel, explore the Albertina Museum, walk around the Naschmarkt, visit the Vienna Zoo, enjoy a concert at the Musikverein, see the Hundertwasser House, explore the Natural History Museum, visit the Leopold Museum, tour the Austrian National Library, walk through the Volksgarten, explore the Museum of Applied Arts (MAK), visit the Sigmund Freud Museum, enjoy the Spanish Riding School, relax in the Burggarten, visit the Karlskirche, explore the Jewish Museum, taste coffee at a traditional Viennese café, dine on Wiener Schnitzel, enjoy a boat ride on the Danube River, see the Danube Tower, visit the Technical Museum, explore the House of Music.",
+                "contact": "+43 (0)5 / 7083-800,",
+                "email": "booking@jufahotels.com",
                 "_createdOn": 1722162166292,
                 "_id": "ec4287a8-2141-4ee3-b0f5-e8b89fbe4eb6"
             },
@@ -1402,6 +1410,8 @@
                 "period": "5",
                 "description": "The Green Park Pendik Hotel & Convention Center is situated in Pendik, known as the shining star of Istanbul, named as the entrance gate of Istanbul on the Anatolian Side; one of the few districts where road and rail and air and sea transport is available.\n\nThe Green Park Pendik Hotel & Convention Center, taken its place as one of the best hotels in Istanbul, has 55 meeting rooms with different capacities and the majority of rooms of the hotel and congress center overlook the sea and it embodies the largest SPA & Fitness Center in Istanbul.",
                 "entertainment": "Visit Hagia Sophia, explore the Blue Mosque, tour Topkapi Palace, shop at the Grand Bazaar, visit the Basilica Cistern, walk around the Sultanahmet Square, explore the Istanbul Archaeological Museums, cruise the Bosphorus, visit the Spice Bazaar, see the Galata Tower, stroll along Istiklal Street, visit Dolmabahçe Palace, explore the Chora Church, relax in a traditional Turkish bath, visit the Suleymaniye Mosque, tour the Museum of Turkish and Islamic Arts, walk through Gülhane Park, visit the Istanbul Modern Art Museum, explore the Rahmi M. Koç Museum, see the Maiden's Tower, visit the Beylerbeyi Palace, explore the Ortaköy neighborhood, visit the Sakıp Sabancı Museum, dine on traditional Turkish cuisine, taste Turkish delight at local shops, visit the Istanbul Aquarium, enjoy the nightlife in Taksim Square, explore the Princes' Islands.",
+                "contact": "+90 2165852121",
+                "email": "pendikrez@thegreenpark.com",
                 "_createdOn": 1722162504366,
                 "_id": "d6d44ef0-7f7f-48e5-8fa3-713b7d25dfb4"
             }
@@ -1423,7 +1433,7 @@
             },
             "e13f06c7-008b-44f3-aaaf-7dbb7460c6b2": {
                 "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-                "testimonial": "Dream Vacations made it easy to plan a last-minute getaway. The variety of destinations and accommodations available meant we could find something perfect even at short notice. We just called the owner of the hotel, found transport and our vacation was ready! We had an amazing trip!",
+                "testimonial": "Dream Vacations made it easy to plan a last-minute getaway. The variety of destinations and accommodations available meant we could find something perfect even at short notice. We just called, found transport and our vacation was ready! We had an amazing trip!",
                 "author": "admin@abv.bg",
                 "_createdOn": 1722604733899,
                 "_id": "e13f06c7-008b-44f3-aaaf-7dbb7460c6b2"

@@ -34,8 +34,8 @@
     color: rgb(177, 240, 245);
     letter-spacing: 10px;
     font-size: 120px;
-    top: 160px;
-    left: 150px;
+    top: 140px;
+    left: 120px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     z-index: 1;
 }
@@ -71,8 +71,8 @@
     color: white;
     position: absolute;
     left: 400px;
-    bottom: 114px;
-    font-size: 26px;
+    bottom: 80px;
+    font-size: 24px;
 }
 
 .first-description-p {
@@ -130,7 +130,7 @@
     display: flex;
     position: absolute;
     gap: 70px;
-    bottom: 40px;
+    bottom: 20px;
     left: 540px;
 }
 
@@ -150,6 +150,7 @@
 .edit-button:hover,
 .delete-button:hover {
     background-color: #034aefd3;
+    color: white;
     animation: pulse 0.5s infinite;
 }
 
@@ -169,7 +170,7 @@
 
 .nonauthor-button {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     left: 600px;
 }
 

@@ -50,7 +50,7 @@ label {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;

@@ -45,6 +45,8 @@ export default function VacationDetails() {
                 <p className={styles["first-description-p"]}>🏨 Accommodation: {vacation.accommodation}</p>
                 <p className={styles["first-description-p"]}>🌟 Stars: {vacation.stars}-star</p>
                 <p className={styles["first-description-p"]}>🌑 Period: {vacation.period} nights</p>
+                <p className={styles["first-description-p"]}>📞 Contact: {vacation.contact}</p>
+                <p className={styles["first-description-p"]}>📧 Email: {vacation.email}</p>
             </div>
             <div className={styles["second-description"]}>
                 <h3 className={styles["heading"]}>Description of the accommodation</h3>

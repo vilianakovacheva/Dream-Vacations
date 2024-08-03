@@ -24,7 +24,9 @@ export function useGetOneVacation(vacationId) {
         stars: '',
         period: '',
         description: '',
-        entertainment: ''
+        entertainment: '',
+        contact: '',
+        email: ''
     });
 
     useEffect(() => {

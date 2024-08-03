@@ -13,7 +13,9 @@ const initialValues = {
     stars: '',
     period: '',
     description: '',
-    entertainment: ''
+    entertainment: '',
+    contact: '',
+    email: ''
 }
 
 export default function VacationCreate() {
@@ -22,7 +24,7 @@ export default function VacationCreate() {
     const createVacation = useCreateVacation();
 
     const createHandler = async (values) => {
-        if(!values.price || !values.destination || !values.accommodation || !values.stars || !values.period || !values.description || !values.entertainment) {
+        if(!values.price || !values.destination || !values.accommodation || !values.stars || !values.period || !values.description || !values.entertainment || !values.contact || !values.email) {
             setError('All fields are required!');
             return;
         }
@@ -42,8 +44,8 @@ export default function VacationCreate() {
             return;
         }
 
-        if(values.destination.length > 10) {
-            setError('The destination must be a maximum 10 characters long!');
+        if(values.destination.length > 15) {
+            setError('The destination must be a maximum 15 characters long!');
             return;
         }
 
@@ -59,6 +61,11 @@ export default function VacationCreate() {
 
         if(values.period > 1000) {
             setError('The nights have a maximum value of 1000!');
+            return;
+        }
+
+        if(!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(values.email)) {
+            setError('This is not a valid email!');
             return;
         }
 
@@ -158,6 +165,26 @@ export default function VacationCreate() {
                     rows={2}
                     placeholder="You can visit the Eiffel Tower, Louvre Museum, Arc de Triomphe, Palace of Versailles."
                 />
+                <label htmlFor="contact">Contact:</label>
+                <input
+                    type="text"
+                    id="contact"
+                    name="contact"
+                    value={values.contact}
+                    onChange={changeHandler}
+                    placeholder="0877777777" />
+                <br />
+                <br />
+                <label htmlFor="email">Hotel's email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={values.email}
+                    onChange={changeHandler}
+                    placeholder="hotel@gmail.com" />
+                <br />
+                <br />
 
                 {error && (
                     <p>
