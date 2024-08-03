@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import styles from './VacationDetails.module.css'
 import { useAuthContext } from '../../contexts/AuthContext';
 import { useGetOneVacation } from '../../hooks/useVacations';
@@ -11,6 +11,8 @@ export default function VacationDetails() {
     const { userId } = useAuthContext();
     const [vacation] = useGetOneVacation(vacationId);
     const { isAuthenticated } = useAuthContext();
+
+    const [error, setError] = useState('');
 
     const [show, setShow] = useState(false);
 
@@ -25,7 +27,7 @@ export default function VacationDetails() {
 
             navigate('/vacations');
         } catch (err) {
-            console.log(err.message);
+            setError(err.message);
         }
     }
 
@@ -57,13 +59,13 @@ export default function VacationDetails() {
             {/*<p className={styles.likes}>👍🏼 Likes: 3</p>*/}
             {isOwner && (
                 <div className={styles["author-buttons"]}>
-                    <button className={styles["edit-button"]} id="edit-button">Edit</button>
+                    <Link to={`/vacations/${vacationId}/edit`} className={styles["edit-button"]} id="edit-button">Edit</Link>
                     <button className={styles["delete-button"]} onClick={handleShow} id="delete-button">Delete</button>
 
                     {show && (
                         <div className={styles['delete-modal']}>
                             <div className={styles['modal-content']}>
-                            <button className={styles['close-btn']} onClick={handleClose}>
+                                <button className={styles['close-btn']} onClick={handleClose}>
                                     &times;
                                 </button>
                                 <h5 className={styles.confirm}>Are you sure you want to delete the vacation to {vacation.destination}?</h5>
@@ -74,6 +76,13 @@ export default function VacationDetails() {
                                 <button className={styles['cancel-btn']} onClick={handleClose}>
                                     Cancel
                                 </button>
+                                {error && (
+                                    <p>
+                                        <span style={{ fontSize: '18px', color: 'red' }}>
+                                            {error}
+                                        </span>
+                                    </p>
+                                )}
                             </div>
                         </div>
                     )}

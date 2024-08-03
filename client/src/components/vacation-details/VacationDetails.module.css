@@ -215,9 +215,10 @@
 .modal-content {
     background-color: #ffffff;
     padding: 20px;
+    font-size: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 400px;
+    width: 450px;
 }
 
 .yes-btn {
@@ -245,7 +246,8 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding: 1px 350px;
+    padding: 1px 405px;
+    margin-top: -25px;
     border-radius: 50%;
   }
 
