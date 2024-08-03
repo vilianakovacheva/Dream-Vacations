@@ -1405,6 +1405,29 @@
                 "_createdOn": 1722162504366,
                 "_id": "d6d44ef0-7f7f-48e5-8fa3-713b7d25dfb4"
             }
+        },
+        testimonials: {
+            "28fa50b3-0288-46c9-83a1-e839ad55a390": {
+                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+                "testimonial": "As a hotel owner, listing my property on Dream Vacations was one of the best decisions I've made. The platform is user-friendly, and I've seen a significant increase in bookings.",
+                "author": "peter@abv.bg",
+                "_createdOn": 1722604370950,
+                "_id": "28fa50b3-0288-46c9-83a1-e839ad55a390"
+            },
+            "7c4ba19a-2888-4164-894c-52971c0c7649": {
+                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+                "testimonial": "As a hotel manager, I can't recommend Dream Vacations enough. The exposure my property has received has led to a steady stream of bookings.",
+                "author": "george@abv.bg",
+                "_createdOn": 1722604609292,
+                "_id": "7c4ba19a-2888-4164-894c-52971c0c7649"
+            },
+            "e13f06c7-008b-44f3-aaaf-7dbb7460c6b2": {
+                "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+                "testimonial": "Dream Vacations made it easy to plan a last-minute getaway. The variety of destinations and accommodations available meant we could find something perfect even at short notice. We just called the owner of the hotel, found transport and our vacation was ready! We had an amazing trip!",
+                "author": "admin@abv.bg",
+                "_createdOn": 1722604733899,
+                "_id": "e13f06c7-008b-44f3-aaaf-7dbb7460c6b2"
+            }
         }
     };
     var rules$1 = {
