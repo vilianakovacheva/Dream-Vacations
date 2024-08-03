@@ -16,32 +16,41 @@ import Profile from "./components/profile/Profile";
 import NotFound from "./components/notFound/NotFound";
 import { AuthContextProvider } from "./contexts/AuthContext";
 import Logout from "./components/logout/Logout";
+import UserGuard from "./components/guards/UserGuard";
+import GuestGuard from "./components/guards/GuestGuard";
 
 function App() {
 
   return (
     <AuthContextProvider>
-    <>
-      <Header />
+      <>
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/logout" element={<Logout />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/vacations" element={<VacationsCatalog />} />
-        <Route path="/vacations/:vacationId/details" element={<VacationDetails />} />
-        <Route path="/vacations/:vacationId/edit" element={<VacationEdit />} />
-        <Route path="/vacations/create" element={<VacationCreate />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/testimonials/add" element={<TestimonialAdd />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="*" element={<NotFound/>} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/vacations" element={<VacationsCatalog />} />
+          <Route path="/vacations/:vacationId/details" element={<VacationDetails />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/search" element={<Search />} />
 
-    </>
+          <Route element={<GuestGuard />}>
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+          </Route>
+
+          <Route element={<UserGuard />}>
+            <Route path="/logout" element={<Logout />} />
+            <Route path="/vacations/:vacationId/edit" element={<VacationEdit />} />
+            <Route path="/vacations/create" element={<VacationCreate />} />
+            <Route path="/testimonials/add" element={<TestimonialAdd />} />
+            <Route path="/profile" element={<Profile />} />
+          </Route>
+
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+
+      </>
     </AuthContextProvider>
   )
 }
