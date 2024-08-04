@@ -33,137 +33,89 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-}
-
-.profileImg {
-    width: 250px;
-    height: 250px;
+  }
+  
+  .profileImg {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
-}
-
-.user-email {
+  }
+  
+  .user-email {
     font-size: 30px;
     margin: 0;
-    color: aliceblue;
-}
+    color: rgb(2, 8, 112);
+  }
 
-.added {
+  .vacation-container {
     position: absolute;
-    transform: translateX(55%);
-    left: 0;
-    top: 120px;
+    top: 260px;
+    background: url('https://img.freepik.com/premium-photo/vivid-travel-vacation-background-with-lush-greenery-crystalclear-waters_115919-55183.jpg');
+    background-color: #4567b761; /* Blue background */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px; /* Set the margin on all sides */
+    width: calc(100% - 200px); /* Set the width to full page minus margin */
+    max-height: 500px; /* Set the maximum height */
+    overflow-y: auto; /* Add scrollbar when content exceeds max-height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .added {
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  
+  .no-added {
+    text-align: center;
+    margin-top: 500px;
     background-color: #020affad;
     color: #c2e7fb;
-    font-size: 30px;
-}
-
-.liked {
-    position: absolute;
-    transform: translateX(-55%);
-    right: 0;
-    top: 120px;
-    background-color: #020affad;
-    color: #c2e7fb;
-    font-size: 30px;
-}
-
-.no-added {
-    position: absolute;
-    left: 0;
-    top: 200px;
-    background-color: #020affad;
-    color: #c2e7fb;
-    font-size: 30px;
-}
-
-.no-liked {
-    position: absolute;
-    right: 0;
-    top: 200px;
-    background-color: #020affad;
-    color: #c2e7fb;
-    font-size: 30px;
-}
-
-.added-vacations,
-.liked-vacations {
-    width: 20%;
-    height: 490px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding: 20px;
-}
-
-.added-vacations {
-    position: absolute;
-    transform: translateX(40%);
-    left: 0;
-    bottom: 70px;
-}
-
-.liked-vacations {
-    position: absolute;
-    transform: translateX(-35%);
-    right: 0;
-    bottom: 70px;
-}
-
-.card {
+    font-size: 50px;
+  }
+  
+  .card {
+    margin: 25px;
     width: 255px;
     margin-bottom: 20px;
-    background-color: rgba(5, 222, 251, 0.646);
-    backdrop-filter: blur(30px);
+    background-color: rgba(5, 243, 251, 0.527);
+    backdrop-filter: blur(10px);
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(9, 1, 250);
-}
-
-.card:hover {
+  }
+  
+  .card:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20 rgba(43, 107, 96, 0.5);
     transition: transform 0.5s, box-shadow 0.5s;
-}
-
-.card-image {
+  }
+  
+  .card-image {
     width: 100%;
     height: 170px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.card-content {
+  }
+  
+  .card-content {
     padding: 20px;
-}
-
-.price {
-    font-size: 2rem;
+  }
+  
+  .destination {
+    font-size: 30px;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
-}
-
-.destination {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.details {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.accommodation {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.button {
+  }
+  
+  .button {
     background-color: transparent;
     color: white;
     padding: 10px 20px;
@@ -172,9 +124,9 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
     text-decoration: none;
-}
-
-.button:hover {
+  }
+  
+  .button:hover {
     background-color: rgba(0, 0, 255, 0.312);
     color: white;
-}
+  }
