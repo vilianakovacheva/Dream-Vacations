@@ -238,4 +238,4 @@ And then open the link from your terminal so you can see my project.
 # Technologies and tools
 <img align="left" alt="react" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
 <img align="left" alt="react" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" />
-<img align="left" alt="react" width="30px" src="https://logos-world.net/wp-content/uploads/2023/08/React-Logo.png" />
+<img align="left" alt="react" width="30px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid0QPsjXkWu1NbHvWugsNZVU6X1c9KmzgZwdYyQD8WRQFMBVBl6QIcHQDzEkwmTVnLhSyiRguPk2IPokk192iT_NDQE2i_2rwRgbp2tYdlhVTYNu6tWD432Ud1QX5AHawRvQMfv5hBKdoBeSlhZF4y8pzCL_FxTyj41OArDOaYyY59Xunv3DTb8SUv/s522/ReactJS.png" />
