@@ -1,6 +1,12 @@
+import { useAuthContext } from '../../contexts/AuthContext';
 import styles from './Profile.module.css'
+import { useGetAllVacationsForUser } from '../../hooks/useVacations';
+import Vacation from './vacation/Vacation';
 
 export default function Profile() {
+    const { userId, email } = useAuthContext();
+
+    const [vacations] = useGetAllVacationsForUser(userId);
     return (
         <>
             <div className={styles.profile}>
@@ -9,39 +15,13 @@ export default function Profile() {
                     className={styles.profileImg}
                     alt=""
                 />
-                <p className={styles["user-email"]}>~~peter@abv.bg~~</p>
-                <h1 className={styles.added}>Added vacations:</h1>
+                <p className={styles["user-email"]}>~~{email}~~</p>
+                <h1 className={styles.added}>Vacations created by you:</h1>
             </div>
-            <h1 className={styles["no-added"]}>🌴 There are no added vacations from you yet! 🌴</h1>
-            <div className={styles["vacation-container"]}>
 
-                <div className={styles.card}>
-                    <img
-                        src="https://meditravel.com/wp-content/uploads/2019/07/istanbul-a-city-that-never-sleeps.jpg"
-                        alt=""
-                        className={styles["card-image"]}
-                    />
-                    <div className={styles["card-content"]}>
-                        <div className={styles.destination}>📍 Istanbul</div>
-                        <a href="#" className={styles.button}>
-                            📃 More Details
-                        </a>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <img
-                        src="https://bgrodina.com/wp-content/uploads/2021/12/verbier-swiss-winter.jpg"
-                        alt=""
-                        className={styles["card-image"]}
-                    />
-                    <div className={styles["card-content"]}>
-                        <div className={styles.destination}>📍 Bansko</div>
-                        <a href="#" className={styles.button}>
-                            📃 More Details
-                        </a>
-                    </div>
-                </div>
-            </div>
+            {vacations.length > 0
+                ? (<div className={styles["vacation-container"]}>{vacations.map(vacation => <Vacation key={vacation._id} {...vacation} />)}</div>)
+                : (<h1 className={styles["no-added"]}>🌴 There are no vacations created by you yet! 🌴</h1>)}
         </>
 
 
