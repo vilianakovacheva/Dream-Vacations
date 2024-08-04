@@ -37,6 +37,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 * Vacations
 <br>
 <br>
+
 * Vacation’s details
   <br>
 —If the user is the owner of the vacation—
@@ -44,6 +45,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 * Delete vacation
 <br>
 <br>
+
 —If the user is not the owner of the vacation—
 * Like vacation
   <br>
@@ -78,7 +80,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 
 * If there are created vacations
 <br>
-<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofL74.Screenshot-2024-08-04-at-18-30-16.png" />
+<img align="center" alt="dream-vacations" src="https://res.cloudinary.com/ddg8ds1ls/image/upload/v1722791233/Screenshot_2024-08-04_at_18.30.52_gp9cco.png" />
 <br>
 <br>
 
