@@ -45,3 +45,17 @@ export function useCreateVacation() {
 
     return vacationCreateHandler;
 }
+
+export function useGetAllVacationsForUser(userId) {
+    const [vacations, setVacations] = useState([]);
+
+    useEffect(() => {
+        (async () => {
+            const result = await vacationsAPI.getVacationsByUserId(userId);
+
+            setVacations(result);
+        })();
+    }, []);
+
+    return [vacations, setVacations];
+}
