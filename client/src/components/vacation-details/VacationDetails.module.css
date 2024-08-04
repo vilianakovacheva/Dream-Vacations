@@ -120,7 +120,7 @@
 
 .likes {
     position: absolute;
-    left: 150px;
+    left: 120px;
     bottom: 390px;
     font-size: 35px;
     color: #87e5ef;
@@ -193,7 +193,7 @@
 
 .liked-vacation {
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     left: 410px;
     background-color: #00a2ffa7;
     border-radius: 10px;

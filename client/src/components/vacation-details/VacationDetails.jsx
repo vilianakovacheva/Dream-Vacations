@@ -4,6 +4,7 @@ import styles from './VacationDetails.module.css'
 import { useAuthContext } from '../../contexts/AuthContext';
 import { useGetOneVacation } from '../../hooks/useVacations';
 import * as vacationsAPI from '../../api/vacations-api';
+import { useAddLike, useGetAllLikes } from '../../hooks/useLikes';
 
 export default function VacationDetails() {
     const navigate = useNavigate();
@@ -11,6 +12,8 @@ export default function VacationDetails() {
     const { userId } = useAuthContext();
     const [vacation] = useGetOneVacation(vacationId);
     const { isAuthenticated } = useAuthContext();
+    const addLike = useAddLike();
+    const [likes, dispatch] = useGetAllLikes(vacationId);
 
     const [error, setError] = useState('');
 
@@ -30,6 +33,22 @@ export default function VacationDetails() {
             setError(err.message);
         }
     }
+
+    const likeHandler = (like) => {
+        dispatch( {type: "LIKE", payload: like });
+    }
+
+    const onLike = async () => {
+        try {
+            const like = await addLike(vacationId);
+
+            likeHandler(like);
+        } catch (err) {
+            console.log(err.message);
+        }
+    }
+
+    const hasLiked = !!likes.find((like) => like._ownerId == userId);
 
     return (
         <section className={styles['vacation-details']}>
@@ -58,7 +77,9 @@ export default function VacationDetails() {
                     {vacation.entertainment}
                 </p>
             </div>
-            {/*<p className={styles.likes}>👍🏼 Likes: 3</p>*/}
+
+            <p className={styles.likes}>👍🏼 Likes: {likes.length}</p>
+            
             {isOwner && (
                 <div className={styles["author-buttons"]}>
                     <Link to={`/vacations/${vacationId}/edit`} className={styles["edit-button"]} id="edit-button">Edit</Link>
@@ -92,12 +113,15 @@ export default function VacationDetails() {
                 </div>
             )}
 
-            {isAuthenticated && !isOwner && (
+            {isAuthenticated && !isOwner && !hasLiked && (
                 <div className={styles["nonauthor-button"]}>
-                    <button id="like-button">Like</button>
+                    <button onClick={onLike} id="like-button">Like</button>
                 </div>
             )}
-            {/*<p className={styles["liked-vacation"]}>You already liked this vacation!</p>*/}
+
+            {hasLiked && (
+                <p className={styles["liked-vacation"]}>You already liked this vacation!</p>
+            )}
         </section>
 
     );
