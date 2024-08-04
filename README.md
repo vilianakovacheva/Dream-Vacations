@@ -65,7 +65,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 
 # Home page- for both guests and logged-in users:
 <br>
-https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png" />
 <br>
 <br>
 
@@ -78,13 +78,13 @@ https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png
 
 * If there are created vacations
 <br>
-https://i.im.ge/2024/08/04/fofL74.Screenshot-2024-08-04-at-18-30-16.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofL74.Screenshot-2024-08-04-at-18-30-16.png" />
 <br>
 <br>
 
 * If there aren’t any created vacations
 <br>
-https://i.im.ge/2024/08/04/fofUCC.Screenshot-2024-08-04-at-18-30-37.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofUCC.Screenshot-2024-08-04-at-18-30-37.png" />
 <br>
 <br>
 
@@ -94,61 +94,61 @@ https://i.im.ge/2024/08/04/fofUCC.Screenshot-2024-08-04-at-18-30-37.png
 
 * For guests
 <br>
-https://i.im.ge/2024/08/04/fofhvq.Screenshot-2024-08-04-at-18-39-46.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofhvq.Screenshot-2024-08-04-at-18-39-46.png" />
 <br>
 <br>
 
 * For logged-in user who is not the author of the vacation and hasn’t liked the vacation
 <br>
-https://i.im.ge/2024/08/04/fof02p.Screenshot-2024-08-04-at-18-40-15.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fof02p.Screenshot-2024-08-04-at-18-40-15.png" />
 <br>
 <br>
 
 * For logged-in user who is not the author of the vacation and who has liked the vacation
 <br>
-https://i.im.ge/2024/08/04/fof56P.Screenshot-2024-08-04-at-18-38-01.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fof56P.Screenshot-2024-08-04-at-18-38-01.png" />
 <br>
 <br>
 
 * For logged-in user who is the author of the vacation
 <br>
-https://i.im.ge/2024/08/04/fof9V1.Screenshot-2024-08-04-at-18-38-39.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fof9V1.Screenshot-2024-08-04-at-18-38-39.png" />
 <br>
 <br>
 
 # Edit page - for the author of the vacation:
 <br>
-https://i.im.ge/2024/08/04/fofmlf.Screenshot-2024-08-04-at-18-38-58.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofmlf.Screenshot-2024-08-04-at-18-38-58.png" />
 <br>
 <br>
 
 # Delete - for the author of the vacation:
 <br>
-https://i.im.ge/2024/08/04/fofw0m.Screenshot-2024-08-04-at-18-39-19.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofw0m.Screenshot-2024-08-04-at-18-39-19.png" />
 <br>
 <br>
 
 # Search page - for both guests and logged-in users:
 <br>
-https://i.im.ge/2024/08/04/fof6gr.Screenshot-2024-08-04-at-18-30-52.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fof6gr.Screenshot-2024-08-04-at-18-30-52.png" />
 <br>
 <br>
 
 * If there is a result:
 <br>
-https://i.im.ge/2024/08/04/fofNeW.Screenshot-2024-08-04-at-18-31-29.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofNeW.Screenshot-2024-08-04-at-18-31-29.png" />
 <br>
 <br>
 
 * If there isn’t a result
 <br>
-https://i.im.ge/2024/08/04/foftD0.Screenshot-2024-08-04-at-18-31-55.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/foftD0.Screenshot-2024-08-04-at-18-31-55.png" />
 <br>
 <br>
 
 # About us page - for both guests and logged-in users:
 <br>
-https://i.im.ge/2024/08/04/fofAvc.Screenshot-2024-08-04-at-18-32-13.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofAvc.Screenshot-2024-08-04-at-18-32-13.png" />
 <br>
 <br>
 
@@ -158,25 +158,25 @@ https://i.im.ge/2024/08/04/fofAvc.Screenshot-2024-08-04-at-18-32-13.png
 
 * For guest
 <br>
-https://i.im.ge/2024/08/04/fofESL.Screenshot-2024-08-04-at-18-34-19.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofESL.Screenshot-2024-08-04-at-18-34-19.png" />
 <br>
 <br>
 
 * For logged-in user
 <br>
-https://i.im.ge/2024/08/04/fofx6G.Screenshot-2024-08-04-at-18-35-10.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofx6G.Screenshot-2024-08-04-at-18-35-10.png" />
 <br>
 <br>
 
 * If there aren’t any testimonials added
 <br>
-https://i.im.ge/2024/08/04/fofJ8M.Screenshot-2024-08-04-at-18-33-06.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofJ8M.Screenshot-2024-08-04-at-18-33-06.png" />
 <br>
 <br>
 
 # Create vacation - only for logged-in users:
 <br>
-https://i.im.ge/2024/08/04/fofBID.Screenshot-2024-08-04-at-18-36-57.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofBID.Screenshot-2024-08-04-at-18-36-57.png" />
 <br>
 <br>
 
@@ -186,25 +186,25 @@ https://i.im.ge/2024/08/04/fofBID.Screenshot-2024-08-04-at-18-36-57.png
 
 * If he/she has created vacations
 <br>
-https://i.im.ge/2024/08/04/fofGE4.Screenshot-2024-08-04-at-18-37-19.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofGE4.Screenshot-2024-08-04-at-18-37-19.png" />
 <br>
 <br>
 
 * If he/she hasn’t created any vacations yet
 <br>
-https://i.im.ge/2024/08/04/fofeJC.Screenshot-2024-08-04-at-18-37-41.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofeJC.Screenshot-2024-08-04-at-18-37-41.png" />
 <br>
 <br>
 
 # Login page - only for guests:
 <br>
-https://i.im.ge/2024/08/04/fokQdq.Screenshot-2024-08-04-at-18-35-34.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fokQdq.Screenshot-2024-08-04-at-18-35-34.png" />
 <br>
 <br>
 
 # Register page - only for guests:
 <br>
-https://i.im.ge/2024/08/04/fokTNp.Screenshot-2024-08-04-at-18-35-48.png
+<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fokTNp.Screenshot-2024-08-04-at-18-35-48.png" />
 <br>
 <br>
 <br>
@@ -238,4 +238,4 @@ And then open the link from your terminal so you can see my project.
 # Technologies and tools
 <img align="left" alt="react" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
 <img align="left" alt="react" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" />
-<img align="left" alt="react" width="30px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid0QPsjXkWu1NbHvWugsNZVU6X1c9KmzgZwdYyQD8WRQFMBVBl6QIcHQDzEkwmTVnLhSyiRguPk2IPokk192iT_NDQE2i_2rwRgbp2tYdlhVTYNu6tWD432Ud1QX5AHawRvQMfv5hBKdoBeSlhZF4y8pzCL_FxTyj41OArDOaYyY59Xunv3DTb8SUv/s522/ReactJS.png" />
+<img align="left" alt="react" width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s" />
