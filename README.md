@@ -66,10 +66,10 @@ The pages and functionalities which are accessible to all logged-in users are:
 <br>
 
 # Home page- for both guests and logged-in users:
-<br />
-<img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png" />
-<br />
-<br />
+<br>
+<img width="1512" alt="Screenshot 2024-08-04 at 17 37 06" src="https://github.com/user-attachments/assets/edeb8678-8bff-4ba1-92e7-9510c282d72a">
+<br>
+<br>
 
 # Vacations page - for both guests and logged-in users:
 <br>
