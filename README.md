@@ -67,6 +67,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 
 # Home page- for both guests and logged-in users:
 <br>
+<img align="left" alt="dreamVacations" src="https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png" />
 <img align="center" alt="dream-vacations" src="https://i.im.ge/2024/08/04/fofDeD.Screenshot-2024-08-04-at-17-37-06.png" />
 <br>
 <br>
