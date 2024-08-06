@@ -235,7 +235,7 @@ Write in the terminal:
 cd server
 node server.js
 ```
-And then open the link from your terminal so you can see my project.
+And then open the link from your terminal that appeared after you typed ```npm run dev``` so you can see my project.
 
 # Technologies and tools
 <img align="left" alt="react" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
