@@ -35,7 +35,7 @@ export default function VacationDetails() {
     }
 
     const likeHandler = (like) => {
-        dispatch( {type: "LIKE", payload: like });
+        dispatch({ type: "LIKE", payload: like });
     }
 
     const onLike = async () => {
@@ -44,7 +44,7 @@ export default function VacationDetails() {
 
             likeHandler(like);
         } catch (err) {
-            console.log(err.message);
+            alert(err.message);
         }
     }
 
@@ -79,7 +79,7 @@ export default function VacationDetails() {
             </div>
 
             <p className={styles.likes}>👍🏼 Likes: {likes.length}</p>
-            
+
             {isOwner && (
                 <div className={styles["author-buttons"]}>
                     <Link to={`/vacations/${vacationId}/edit`} className={styles["edit-button"]} id="edit-button">Edit</Link>
