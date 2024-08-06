@@ -61,7 +61,7 @@ export default function Search() {
                 )
                 : (
                     <h2 className={styles["no-vacations"]}>
-                        There are no vacations to this destination yet!
+                        No vacations found...
                     </h2>
                 )}
         </>
