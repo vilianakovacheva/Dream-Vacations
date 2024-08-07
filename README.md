@@ -211,6 +211,23 @@ The pages and functionalities which are accessible to all logged-in users are:
 <br>
 <br>
 
+# Deploys
+
+I have deployed my project to Vercel and to Render.com
+
+* Vercel: https://dream-vacations.vercel.app
+* Render.com: https://dream-vacations.onrender.com
+
+***MIND THAT: When you first open it you have to wait a little bit because after the first request the back-end needs time to start***
+
+Also I have deployed the front-end (client) of my project to Firebase
+
+* Firebase: https://dream-vacations-2024.web.app ---BUT in this case to work properly(because it's just the front-end) you have to start the server -- 
+```
+cd server
+node server.js
+```
+
 # How to run the application:
 
 First you have to clone my project:
@@ -223,9 +240,8 @@ Then in the terminal write ```npm install``` to install all the dependencies for
 
 When you have installed the dependencies, write in the terminal:
 ```
-npm run dev - To run in development;
-npm run build - To create a build;
-npm run preview - To run the production preview build;
+cd client
+npm run dev
 ```
 
 When you run the project, you have to start the server, so my project works properly
