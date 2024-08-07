@@ -24,7 +24,7 @@ export default function VacationDetails() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const gameDeleteHandler = async () => {
+    const vacationDeleteHandler = async () => {
         try {
             await vacationsAPI.remove(vacationId);
 
@@ -93,7 +93,7 @@ export default function VacationDetails() {
                                 </button>
                                 <h5 className={styles.confirm}>Are you sure you want to delete the vacation to {vacation.destination}?</h5>
                                 <p className={styles.caution}>This action cannot be undone!</p>
-                                <button className={styles['yes-btn']} onClick={gameDeleteHandler}>
+                                <button className={styles['yes-btn']} onClick={vacationDeleteHandler}>
                                     Delete
                                 </button>
                                 <button className={styles['cancel-btn']} onClick={handleClose}>
