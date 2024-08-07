@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import { get } from '../../api/requester';
 import { Link } from 'react-router-dom';
 
-const BASE_URL = 'http://localhost:3030/data/vacations';
+//const BASE_URL = 'http://localhost:3030/data/vacations';
+const BASE_URL = `${import.meta.env.VITE_BASE_URL}/data/vacations`;
 
 export default function Search() {
     const [searchValue, setSearchValue] = useState('');
