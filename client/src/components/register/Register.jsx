@@ -22,6 +22,11 @@ export default function Register() {
             return;
         }
 
+        if(values.password.length < 4) {
+            setError('The password must be at least 4 characters long!');
+            return;
+        }
+
         if(values.email.includes(' ') || values.password.includes(' ') || values.repass.includes(' ')) {
             setError('Email, password and repass must not include whitespaces!');
             return;
