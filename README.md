@@ -108,7 +108,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 
 * For logged-in user who is not the author of the vacation and who has liked the vacation
 <br>
-<img width="1512" alt="Screenshot 2024-08-04 at 18 38 01" src="https://github.com/user-attachments/assets/df9f8d73-2f79-40d0-a7c5-4f3f02b7d80a">
+<img width="1512" alt="Screenshot 2024-08-07 at 19 21 06" src="https://github.com/user-attachments/assets/a0783091-a90b-4619-af4f-9e2c1c19179a">
 <br>
 <br>
 
