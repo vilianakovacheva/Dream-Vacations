@@ -1,6 +1,7 @@
 import requester from "./requester";
 
-const BASE_URL = 'http://localhost:3030/data/likes';
+//const BASE_URL = 'http://localhost:3030/data/likes';
+const BASE_URL = `${import.meta.env.VITE_BASE_URL}/data/likes`;
 
 const addLike = (vacationId) => requester.post(BASE_URL, {vacationId});
 
