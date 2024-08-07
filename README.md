@@ -211,7 +211,7 @@ The pages and functionalities which are accessible to all logged-in users are:
 <br>
 <br>
 
-# Deploys
+# Deployments
 
 I have deployed my project to Vercel and to Render.com
 
